@@ -148,3 +148,5 @@ source ~/.config/envman/load.sh
 if [ -z "$TMUX" ]; then 
 	exec tmux
 fi
+
+alias rm-bg="/home/jeromel/Public/expriments/remove_background/main.py"
