@@ -19,7 +19,12 @@ return {
       colorscheme = "gruvbox",
     },
   },
-
+  -- Multi Cursor Plugin config
+  {
+    "mg979/vim-visual-multi",
+    lazy = false, -- Ensure it loads on startup
+    -- You can add other configuration options here if needed
+  },
   -- change trouble config
   {
     "folke/trouble.nvim",
