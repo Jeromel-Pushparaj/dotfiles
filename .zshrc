@@ -141,6 +141,8 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:$(npm bin -g)"
 
 
+. "$HOME/.cargo/env"
+
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 source ~/.config/envman/load.sh
@@ -150,3 +152,7 @@ if [ -z "$TMUX" ]; then
 fi
 
 alias rm-bg="/home/jeromel/Public/expriments/remove_background/main.py"
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
