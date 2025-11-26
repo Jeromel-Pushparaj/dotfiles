@@ -156,3 +156,6 @@ alias rm-bg="/home/jeromel/Public/expriments/remove_background/main.py"
 . "$HOME/.atuin/bin/env"
 
 eval "$(atuin init zsh)"
+
+eval "$(zoxide init zsh)"
+
