@@ -159,3 +159,5 @@ eval "$(atuin init zsh)"
 
 eval "$(zoxide init zsh)"
 
+export JMETER_HOME=/opt/jmeter
+export PATH=$PATH:$JMETER_HOME/bin
